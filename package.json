@@ -1,6 +1,6 @@
 {
   "name": "@odel/wttr-module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Odel module for getting weather forecasts using wttr.in",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -21,7 +21,7 @@
   "author": "Odel",
   "license": "MIT",
   "dependencies": {
-    "@odel/module-sdk": "^0.0.2",
+    "@odel/module-sdk": "^0.0.3",
     "zod": "^3.25.76"
   },
   "devDependencies": {
