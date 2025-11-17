@@ -1,0 +1,35 @@
+{
+  "name": "@odel/wttr-module",
+  "version": "0.0.1",
+  "description": "Odel module for getting weather forecasts using wttr.in",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": [
+    "odel",
+    "weather",
+    "wttr.in",
+    "mcp",
+    "cloudflare-workers"
+  ],
+  "author": "Odel",
+  "license": "MIT",
+  "dependencies": {
+    "@odel/module-sdk": "^0.0.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.10.7",
+    "@cloudflare/workers-types": "^4.20250110.0",
+    "typescript": "^5.9.2",
+    "vitest": "~3.2.0",
+    "wrangler": "^3.102.0"
+  },
+  "packageManager": "pnpm@10.20.0"
+}
